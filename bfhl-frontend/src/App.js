@@ -8,7 +8,7 @@ const App = () => {
   const [response, setResponse] = useState(null);
   const [selectedOptions, setSelectedOptions] = useState([]);
 
-  const backendURL = "http://localhost:5000/bfhl"; // Change this to your hosted backend URL
+  const backendURL = "https://internship-bd6c.onrender.com/bfhl"; // Change this to your hosted backend URL
 
   // Validate JSON input
   const handleInputChange = (event) => {
