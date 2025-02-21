@@ -38,7 +38,7 @@ const sampleResponse = {
 
 // GET endpoint (Returns hardcoded response)
 app.get("/bfhl", (req, res) => {
-  res.status(200).json(sampleResponse);
+  res.json({ operation_code: 200 });
 });
 
 // POST endpoint (Processes the input)
